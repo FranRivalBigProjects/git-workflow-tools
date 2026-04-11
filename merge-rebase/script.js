@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let c=+commits.value;if(!c){res.innerText='Enter value';return;}res.innerText=`Commits affected: ${c}`;}

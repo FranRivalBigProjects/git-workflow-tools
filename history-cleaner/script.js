@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let h=history.value.split('\n').length;res.innerText=`Entries: ${h}`;}

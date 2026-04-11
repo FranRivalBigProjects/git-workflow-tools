@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let t=+teams.value,r=+releases.value;if(!t||!r){res.innerText='Enter values';return;}res.innerText=t>5?'Use trunk-based':'Git flow viable';}
